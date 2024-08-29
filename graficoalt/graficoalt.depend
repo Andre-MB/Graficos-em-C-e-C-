@@ -1,0 +1,17 @@
+# depslib dependency file v1.0
+1724895973 source:/home/andre/Downloads/graficoalt/main.c
+	<stdio.h>
+	<stdlib.h>
+	<GL/glx.h>
+	<GL/gl.h>
+	<GL/glut.h>
+	<string.h>
+
+1724899572 source:/home/andre/Downloads/Graficos em C,C++/graficoalt/main.c
+	<stdio.h>
+	<stdlib.h>
+	<GL/glx.h>
+	<GL/gl.h>
+	<GL/glut.h>
+	<string.h>
+

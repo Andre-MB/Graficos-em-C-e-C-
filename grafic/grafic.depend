@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1724877775 source:/home/andre/Downloads/grafic/main.c
+	<stdio.h>
+	<stdlib.h>
+	<GL/glx.h>
+	<GL/gl.h>
+	<GL/glut.h>
+	<string.h>
+
