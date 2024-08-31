@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1679889539 source:/home/andre/Downloads/Projeto teste/main.c
+	<stdio.h>
+	<stdlib.h>
+
+1679889657 source:/home/andre/Downloads/Projeto teste/pol.c
+	<stdio.h>
+	<stdlib.h>
+

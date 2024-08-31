@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1683160166 source:/home/andre/Downloads/polco/main.c
+	<stdio.h>
+	<stdlib.h>
+

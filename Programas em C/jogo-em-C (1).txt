@@ -1,0 +1,31 @@
+#include <stdio.h>
+#include <time.h>
+#include <stdlib.h>
+
+int main(){
+    
+    srand(time(NULL));
+    
+    int numero = 1000;
+    int computador = rand() % numero;
+    int jogador, tentativas = 0;
+
+    printf("Tente adivinha um número entre 0 e %i que computador pensou.\n", numero);
+    do{
+        printf("Digite um número: ");
+        scanf("%i", &jogador);
+        if(jogador > computador){
+            printf("Menos...\n");
+        } else if(jogador < computador){
+            printf("Mais...\n");
+        }
+        tentativas++;
+    }while(jogador != computador);
+    
+    printf("\nParabens você acertou!!!\n");
+    printf("Número que o computador pensou: %i\n", computador);
+    printf("Número de tentativas: %i", tentativas);
+
+
+    return 0;
+}
